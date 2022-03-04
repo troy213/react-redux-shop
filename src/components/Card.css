@@ -1,0 +1,42 @@
+.card {
+  height: 300px;
+  width: 200px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-description {
+  padding: 1rem;
+}
+
+.card-description p {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.add-to-cart-btn {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--primary-color);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color: var(--primary-color-hover);
+}

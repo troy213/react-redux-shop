@@ -1,0 +1,41 @@
+.form-container {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background: linear-gradient(to right bottom, #0275d8dd, #0275d890);
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.form input {
+  margin-top: 0.25rem;
+  padding: 0.3rem;
+  border: 0;
+}
+
+.login-btn {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: hsl(35, 84%, 62%);
+  color: white;
+  border: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: hsla(35, 84%, 67%);
+}
